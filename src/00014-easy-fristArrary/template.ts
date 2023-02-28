@@ -1,1 +1,0 @@
-type First<T> = T extends [infer R, ...any[]] ? R : never;
